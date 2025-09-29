@@ -15,18 +15,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bedaya.physics"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#001F3F"
-      }
+      },
+      "package": "com.bedaya.physics"
     },
     "web": {
       "favicon": "./assets/icon.png",
-      "bundler": "metro"
+      "bundler": "webpack"
     },
+    "platforms": ["ios", "android", "web"],
     "scheme": "physics-mr-saddam"
   }
 }
